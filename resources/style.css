@@ -1,0 +1,89 @@
+
+html {
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+    background-color: rgb(252, 251, 252);
+    
+  }
+  
+  .navbar ul , .footer-section ul{
+      list-style: none;
+      display: flex;
+      justify-content: space-evenly;
+  }
+  
+  a {
+      text-decoration: none;
+      color:black;
+  
+  }
+  
+  a:hover{
+      color: rgb(245, 73, 239);
+  
+  }
+  
+   #membership{
+      text-align: center;
+      padding-top: 2em;
+      padding-bottom: 2em;
+  }
+  
+  #welcome{
+      text-align: center;
+      font-size: 3rem;
+      background-color: rgb(118, 239, 239);
+      color:rgb(245, 73, 239);
+  }
+  
+  #schedule{
+      text-align: center;
+      background-color: rgb(118, 239, 239);
+      padding-top: 1em;
+      padding-bottom: 1em;
+      margin-top: 5%;
+  }
+  
+  header img{
+      width: 40%;
+  
+  }
+  
+  .intro-container img{
+      width: 80%;
+  }
+  
+  .image-content img {
+      width: 100%;
+  }
+  
+  .intro-container{
+      display: flex;
+      justify-content: center;
+      justify-content: space-around;
+      margin-left: 10%;
+      margin-bottom: 4em;
+  }
+  
+  .moto{
+      background-color: rgb(118, 239, 239);
+      font-style: italic;
+      color:rgb(245, 73, 239);
+      font-family: 'Courier New', Courier, monospace;
+      text-align: center;
+      padding-top: 5px;
+      padding-bottom: 5px;;
+  }
+  
+  .gallery-container{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-left: 1em;
+  }
+  
+  
+  figcaption{
+      text-align: center;
+      font-weight:bold;
+  }
